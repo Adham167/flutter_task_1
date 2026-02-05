@@ -1,14 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:flutter_task_1/cubit/product_or_list_cubit.dart';
 import 'package:flutter_task_1/custom_search_field.dart';
 import 'package:flutter_task_1/product_card.dart';
 import 'package:flutter_task_1/product_filter_widget.dart';
 import 'package:flutter_task_1/products_sliver.dart';
-import 'package:flutter_task_1/utils/app_colors.dart';
-import 'package:flutter_task_1/utils/app_images.dart';
-import 'package:flutter_task_1/utils/app_style.dart';
 
 class HomeViewBody extends StatelessWidget {
   const HomeViewBody({super.key});

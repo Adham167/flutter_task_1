@@ -2,7 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_task_1/filter_widget.dart';
-import 'package:flutter_task_1/home_view_body.dart';
 import 'package:flutter_task_1/product_button.dart';
 import 'package:flutter_task_1/utils/app_images.dart';
 import 'package:flutter_task_1/utils/app_style.dart';

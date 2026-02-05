@@ -15,6 +15,10 @@ class HomeView extends StatelessWidget {
       child: Scaffold(
         backgroundColor: AppColors.backGroundColor,
         appBar: AppBar(
+          elevation: 0,
+          surfaceTintColor: Colors.transparent,
+          scrolledUnderElevation: 0,
+
           backgroundColor: AppColors.backGroundColor,
           title: Text("Product", style: AppStyle.styleSemiBold20),
           centerTitle: true,

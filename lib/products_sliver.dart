@@ -1,8 +1,6 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_task_1/cubit/product_or_list_cubit.dart';
-import 'package:flutter_task_1/home_view_body.dart';
 import 'package:flutter_task_1/product_card.dart';
 import 'package:flutter_task_1/product_of_list_card.dart';
 
@@ -17,7 +15,7 @@ class ProductsSliver extends StatelessWidget {
           return SliverGrid(
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 2,
-              crossAxisSpacing: 15,
+              crossAxisSpacing: 12,
               mainAxisSpacing: 16,
               childAspectRatio: 0.71,
             ),

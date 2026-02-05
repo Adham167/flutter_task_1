@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_task_1/product_card.dart';
 
@@ -10,9 +9,9 @@ class ProdcutGridView extends StatelessWidget {
     return SliverGrid(
       gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
         crossAxisCount: 2,
-        crossAxisSpacing: 15,
+        crossAxisSpacing: 16,
         mainAxisSpacing: 16,
-        childAspectRatio: 0.71,
+        childAspectRatio: 0.6,
       ),
       delegate: SliverChildBuilderDelegate(
         (context, index) => ProductCard(),

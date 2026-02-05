@@ -13,7 +13,6 @@ class ProductCard extends StatefulWidget {
 class _ProductCardState extends State<ProductCard> {
   bool isFavorite = false;
 
-  final double cardWidth = 196;
   final double imageHeight = 150;
 
   @override
@@ -22,7 +21,6 @@ class _ProductCardState extends State<ProductCard> {
       onTap: () {},
       borderRadius: BorderRadius.circular(16),
       child: Container(
-        width: cardWidth,
         margin: const EdgeInsets.only(bottom: 8),
         decoration: BoxDecoration(
           color: Colors.white,
@@ -42,9 +40,8 @@ class _ProductCardState extends State<ProductCard> {
               borderRadius: const BorderRadius.vertical(
                 top: Radius.circular(16),
               ),
-              child: SizedBox(
-                height: imageHeight,
-                width: cardWidth,
+              child: AspectRatio(
+                aspectRatio: 1.25,
                 child: Stack(
                   children: [
                     Image.asset(
@@ -70,9 +67,7 @@ class _ProductCardState extends State<ProductCard> {
                             shape: BoxShape.circle,
                           ),
                           child: Icon(
-                            isFavorite
-                                ? Icons.favorite
-                                : Icons.favorite_border,
+                            isFavorite ? Icons.favorite : Icons.favorite_border,
                             color: isFavorite
                                 ? Colors.red
                                 : AppColors.primaryTextColor,
@@ -90,4 +85,5 @@ class _ProductCardState extends State<ProductCard> {
         ),
       ),
     );
-  }}
+  }
+}
