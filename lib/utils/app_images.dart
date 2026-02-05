@@ -8,4 +8,5 @@ class AppImages {
   static const String whiteProductIcon = 'assets/images/whiteProductIcon.svg';
   static const String blackListIcon = 'assets/images/blackListIcon.svg';
   static const String listIcon = 'assets/images/ListIcon.svg';
+  static const String bagImage = 'assets/images/bagImage.png';
 }
