@@ -1,6 +1,6 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:flutter_task_1/widgets/custom_bottom_sheet.dart';
 import 'package:flutter_task_1/widgets/filter_widget.dart';
 import 'package:flutter_task_1/widgets/product_button.dart';
 import 'package:flutter_task_1/utils/app_images.dart';
@@ -23,9 +23,21 @@ class ProductFilterWidget extends StatelessWidget {
               Spacer(),
               GestureDetector(
                 onTap: () {
-                  
+                  showModalBottomSheet(
+                    context: context,
+                    isScrollControlled: true,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadiusGeometry.vertical(
+                        top: Radius.circular(16),
+                      ),
+                    ),
+                    builder: (context) {
+                      return CustomBottomSheet();
+                    },
+                  );
                 },
-                child: SvgPicture.asset(AppImages.filterIcon2)),
+                child: SvgPicture.asset(AppImages.filterIcon2),
+              ),
             ],
           ),
           SizedBox(height: 8),
