@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_task_1/cubit/product_or_list_cubit.dart';
-import 'package:flutter_task_1/product_card.dart';
-import 'package:flutter_task_1/product_of_list_card.dart';
+import 'package:flutter_task_1/widgets/product_card.dart';
+import 'package:flutter_task_1/widgets/product_of_list_card.dart';
 
 class ProductsSliver extends StatelessWidget {
   const ProductsSliver({super.key});

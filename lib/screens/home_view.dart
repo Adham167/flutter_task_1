@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_task_1/cubit/product_or_list_cubit.dart';
-import 'package:flutter_task_1/home_view_body.dart';
+import 'package:flutter_task_1/widgets/home_view_body.dart';
 import 'package:flutter_task_1/utils/app_colors.dart';
 import 'package:flutter_task_1/utils/app_style.dart';
 

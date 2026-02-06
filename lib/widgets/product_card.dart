@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task_1/product_info_widget.dart';
+import 'package:flutter_task_1/widgets/product_info_widget.dart';
 import 'package:flutter_task_1/utils/app_colors.dart';
 import 'package:flutter_task_1/utils/app_images.dart';
 

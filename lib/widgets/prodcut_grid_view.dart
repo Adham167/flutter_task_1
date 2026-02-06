@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task_1/product_card.dart';
+import 'package:flutter_task_1/widgets/product_card.dart';
 
 class ProdcutGridView extends StatelessWidget {
   const ProdcutGridView({super.key});

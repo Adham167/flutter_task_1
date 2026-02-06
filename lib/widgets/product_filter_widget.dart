@@ -1,8 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:flutter_task_1/filter_widget.dart';
-import 'package:flutter_task_1/product_button.dart';
+import 'package:flutter_task_1/widgets/filter_widget.dart';
+import 'package:flutter_task_1/widgets/product_button.dart';
 import 'package:flutter_task_1/utils/app_images.dart';
 import 'package:flutter_task_1/utils/app_style.dart';
 
@@ -21,7 +21,11 @@ class ProductFilterWidget extends StatelessWidget {
               SizedBox(width: 10),
               Text("Filter", style: AppStyle.styleMedium14),
               Spacer(),
-              SvgPicture.asset(AppImages.filterIcon2),
+              GestureDetector(
+                onTap: () {
+                  
+                },
+                child: SvgPicture.asset(AppImages.filterIcon2)),
             ],
           ),
           SizedBox(height: 8),

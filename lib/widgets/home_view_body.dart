@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task_1/custom_search_field.dart';
-import 'package:flutter_task_1/product_card.dart';
-import 'package:flutter_task_1/product_filter_widget.dart';
-import 'package:flutter_task_1/products_sliver.dart';
+import 'package:flutter_task_1/widgets/custom_search_field.dart';
+import 'package:flutter_task_1/widgets/product_card.dart';
+import 'package:flutter_task_1/widgets/product_filter_widget.dart';
+import 'package:flutter_task_1/widgets/products_sliver.dart';
 
 class HomeViewBody extends StatelessWidget {
   const HomeViewBody({super.key});
