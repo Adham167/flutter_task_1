@@ -1,7 +1,5 @@
-import 'package:device_preview/device_preview.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_task_1/screens/home_view.dart';
+import 'package:flutter_task_1/screens/profile_view.dart';
 
 void main() {
   runApp(
@@ -9,7 +7,7 @@ void main() {
     //   enabled: !kReleaseMode,
     //   builder: (context) => MyApp(), // Wrap your app
     // ),
-    const MyApp()
+    const MyApp(),
   );
 }
 
@@ -23,7 +21,7 @@ class MyApp extends StatelessWidget {
       // useInheritedMediaQuery: true,
       // locale: DevicePreview.locale(context),
       // builder: DevicePreview.appBuilder,
-      home: HomeView(),
+      home: ProfileView(),
     );
   }
 }

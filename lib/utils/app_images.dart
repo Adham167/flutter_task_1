@@ -10,4 +10,20 @@ class AppImages {
   static const String listIcon = 'assets/images/ListIcon.svg';
   static const String bagImage = 'assets/images/bagImage.png';
   static const String exitIcon = 'assets/images/ExitIcon.svg';
+  static const String infoImage = 'assets/images/info.png';
+  static const String groupIcon = 'assets/images/Group.svg';
+  static const String keyIcon = 'assets/images/Vector.svg';
+  static const String ordersIcon = 'assets/images/Orders.svg';
+  static const String returnsIcon = 'assets/images/Returns.svg';
+  static const String wishlistIcon = 'assets/images/Wishlist.svg';
+  static const String notificationIcon = 'assets/images/Notofication.svg';
+  static const String savedAddressIcon = 'assets/images/SavedAddress.svg';
+  static const String helpIcon = 'assets/images/Help.svg';
+  static const String sellerIcon = 'assets/images/Seller.svg';
+  static const String info2Image = 'assets/images/info_2.png';
+  static const String logoutIcon = 'assets/images/LogOut.svg';
+  static const String gmailIcon = 'assets/images/Gmail.svg';
+  static const String instagramIcon = 'assets/images/Insita.svg';
+  static const String facebookIcon = 'assets/images/FaceBook.svg';
+  static const String linkedInIcon = 'assets/images/LinkedIn.svg';
 }

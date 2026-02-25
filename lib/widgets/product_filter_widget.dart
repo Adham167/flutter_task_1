@@ -31,9 +31,7 @@ class ProductFilterWidget extends StatelessWidget {
                         top: Radius.circular(16),
                       ),
                     ),
-                    builder: (context) {
-                      return CustomBottomSheet();
-                    },
+                    builder: (context) => CustomBottomSheet(),
                   );
                 },
                 child: SvgPicture.asset(AppImages.filterIcon2),
