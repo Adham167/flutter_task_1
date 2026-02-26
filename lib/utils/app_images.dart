@@ -26,4 +26,9 @@ class AppImages {
   static const String instagramIcon = 'assets/images/Insita.svg';
   static const String facebookIcon = 'assets/images/FaceBook.svg';
   static const String linkedInIcon = 'assets/images/LinkedIn.svg';
+  static const String orderConfirmIcon = 'assets/images/OrderConfirmed.png';
+  static const String processingIcon = 'assets/images/Processing.svg';
+  static const String deliveredIcon = 'assets/images/DeliveredIcon.svg';
+  static const String shippedIcon = 'assets/images/ShippedIcon.png';
+  static const String arrivedIcon = 'assets/images/Arrived.png';
 }
